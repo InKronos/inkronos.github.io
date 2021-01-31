@@ -16,9 +16,24 @@ function glupiEim(){
     let hLeft = Math.floor(h % 24);      
     let dLeft =  Math.floor(d);
     let dayname = " dni ";
+    let hname = " godzin ";
+    let minnanme = " minut "
+    let sname = " sekund "
     if(dLeft == 1)
-        dayname = " dzien ";
-    return dLeft + dayname + hLeft + " godzin " + minLeft + " minut " +  sLeft + " sekund";        
+        dayname = " dzień ";
+    if(hLeft == 1)
+        hname = " godzina "
+    else if(hLeft < 5 && hLeft > 1)
+        hname = " godziny "    
+    if(minLeft == 1)
+        minnanme = "  minuta "
+    else if(minLeft < 5 && minLeft > 1)
+        minnanme = " minuty "   
+    if(sLeft == 1 )
+        sname = " sekunda "
+    else if(sLeft < 5 && sLeft > 1)
+        sname = " sekundy "   
+    return dLeft + dayname + hLeft + hname + minLeft + minnanme +  sLeft + sname;        
 }      
 
 function randomBackground(){
