@@ -1,7 +1,7 @@
 
 
 function glupiEim(){
-    let czasTeraz = new Date();
+    let czasTeraz = new Date(2021, 0, 31, 19, 42, 0, 0);
 
 
     let koniecEimu = new Date(2021, 0, 29, 17, 12, 0, 0);
@@ -33,7 +33,7 @@ function glupiEim(){
         sname = " sekunda "
     else if(sLeft < 5 && sLeft > 1)
         sname = " sekundy "   
-    return dLeft + dayname + hLeft + hname + minLeft + minnanme +  sLeft + sname;        
+    return dLeft + dayname + hLeft + hname + minLeft + minnanme;        
 }      
 
 function randomBackground(){
@@ -48,5 +48,4 @@ window.onload = function()
     document.body.style.background = randomBackground();
     idElement = "czas";
     document.getElementById(idElement).innerHTML = glupiEim();
-    setInterval("document.getElementById(idElement).innerHTML = glupiEim()", 1000);
 };
