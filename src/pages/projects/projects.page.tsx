@@ -17,7 +17,7 @@ const ProjectsPage: FC<ProjectsProps> = () => {
                     <Card.Text>
                     Intel 8051 Emulator writed in C++ using OOP paradigm.
                     </Card.Text>
-                    <Card.Link href="#">Github</Card.Link>
+                    <Card.Link href="https://github.com/InKronos/emu8051">Github</Card.Link>
                 </Card.Body>
             </Card>
             <Card  className='smallCard'>
@@ -26,7 +26,7 @@ const ProjectsPage: FC<ProjectsProps> = () => {
                     <Card.Text>
                     AR app created in Unity where you can destroy city with helicopter.
                     </Card.Text>
-                    <Card.Link href="#">Github</Card.Link>
+                    <Card.Link href="https://github.com/InKronos/ar-app">Github</Card.Link>
                 </Card.Body>
             </Card>
             <Card  className='smallCard'>
@@ -35,7 +35,7 @@ const ProjectsPage: FC<ProjectsProps> = () => {
                     <Card.Text>
                     Polish Licence Plate generator in python with OpenCV.
                     </Card.Text>
-                    <Card.Link href="#">Github</Card.Link>
+                    <Card.Link href="https://github.com/InKronos/License-Plate-Generator">Github</Card.Link>
                 </Card.Body>
             </Card>
             <Card  className='smallCard'>
@@ -44,7 +44,7 @@ const ProjectsPage: FC<ProjectsProps> = () => {
                     <Card.Text>
                     React Native app with NodeJS server. Application for managment of drones.
                     </Card.Text>
-                    <Card.Link href="#">Github</Card.Link>
+                    <Card.Link href="https://github.com/InKronos/Drone-management-project">Github</Card.Link>
                 </Card.Body>
             </Card>
             <Card  className='smallCard'>
@@ -53,7 +53,7 @@ const ProjectsPage: FC<ProjectsProps> = () => {
                     <Card.Text>
                     Web3 app for buying a piece of planets.
                     </Card.Text>
-                    <Card.Link href="#">Github</Card.Link>
+                    <Card.Link href="https://github.com/InKronos/decentralized-planet-shop">Github</Card.Link>
                 </Card.Body>
             </Card>
             <Card className="MYcard">
