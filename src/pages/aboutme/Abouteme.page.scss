@@ -8,17 +8,34 @@
 
 #hidiv{
     width: 100%;
+    border: 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    .card-body{
+        padding: 0;
+    }    
+    .card-title, .card-subtitle, .card-text{
+        font-size: 2.5rem;
+    }
 }
 
 #portfolio{
   color: gray;
   font-size: 1.5em;
   padding: auto;
+  
 }
 
 .skill-container{
-    width: 50%;
-    margin: 0;
+    width: 100%;
+
+    margin-bottom: 2em;
+    @media (min-width: 992px) {
+        &{
+            width: 50%;
+            margin: 0;
+        }
+      }
   }
   @keyframes load{
     from {
