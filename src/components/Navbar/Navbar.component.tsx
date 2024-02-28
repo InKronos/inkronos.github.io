@@ -14,8 +14,8 @@ const NavbarComponent: FC<NavbarProps> = () => (
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="aboutme">About me</Nav.Link>
-            <Nav.Link href="projects">Projects</Nav.Link>
+            <Nav.Link href="/">About me</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
