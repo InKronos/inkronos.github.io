@@ -10,7 +10,7 @@ interface NavbarProps {}
 const NavbarComponent: FC<NavbarProps> = () => (
   <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand>InChronos</Navbar.Brand>
+        <Navbar.Brand href='/'>InKronos</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

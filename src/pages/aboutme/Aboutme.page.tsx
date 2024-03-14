@@ -24,17 +24,65 @@ const AboutmePage: FC<AboutmeProps> = () => {
     </Card>
     <div className="skill-container">
     <h1>Skill Set</h1>
-        <div className="bar advanced" data-skill="C/C++"></div>
-        <div className="bar front intermediate" data-skill="Python"></div>
-        <div className="bar back advanced" data-skill="TypeScript"></div>
+        <div className="icon-container">
+            <div className="icon-wrapper">
+                <i className="devicon-c-plain colored icon"></i>
+                <p className="description">C</p>
+            </div>
+            <div className="icon-wrapper">
+                <i className="devicon-cplusplus-plain colored icon"></i>
+                <p className="description">C++</p>
+            </div>
+            <div className="icon-wrapper">
+                <i className="devicon-typescript-plain colored icon"></i>
+                <p className="description">TypeScript</p>
+            </div>
+            <div className="icon-wrapper">
+                <i className="devicon-python-plain colored icon"></i>
+                <p className="description">Python</p>
+            </div>
+            <div className="icon-wrapper">
+                <i className="devicon-php-plain colored icon"></i>
+                <p className="description">PHP</p>
+            </div>
+            <div className="icon-wrapper">
+                <i className="devicon-java-plain colored icon"></i>
+                <p className="description">Java</p>
+            </div>
+        </div>
     </div>
     <div className="skill-container">
     <h1>Technologies</h1>
-        <div className="bar back advanced" data-skill="React"></div>
-        <div className="bar back advanced" data-skill="Node.js"></div>
-        <div className="bar front intermediate" data-skill="Databases"></div>
-        <div className="bar front intermediate" data-skill="Tenserflow"></div>
-        <div className="bar basic" data-skill="RTOS"></div>
+    <div className="icon-container">
+            <div className="icon-wrapper">
+                <i className="devicon-react-original colored icon"></i>
+                <p className="description">React</p>
+            </div>
+            <div className="icon-wrapper">
+                <i className="devicon-angularjs-plain colored icon"></i>
+                <p className="description">Angular</p>
+            </div>
+            <div className="icon-wrapper">
+                <i className="devicon-nodejs-plain-wordmark colored icon"></i>
+                <p className="description">NodeJS</p>
+            </div>
+            <div className="icon-wrapper">
+                <i className="devicon-azuresqldatabase-plain colored icon"></i>
+                <p className="description">Databases</p>
+            </div>
+            <div className="icon-wrapper">
+                <i className="devicon-tensorflow-original colored icon"></i>
+                <p className="description">Tensorflow</p>
+            </div>
+            <div className="icon-wrapper">
+                <i className="devicon-linux-plain colored icon"></i>
+                <p className="description">Linux</p>
+            </div>
+            <div className="icon-wrapper">
+                <i className="devicon-ros-original colored icon"></i>
+                <p className="description">ROS</p>
+            </div>
+        </div>
     </div>
     <div className="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
             <ul className="timeline">
